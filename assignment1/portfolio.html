@@ -1,11 +1,12 @@
+
 <!doctype html>
 <!-- First Assignment Basic Portfoli0-->
-
+<!-- Contact page -->
 
 <html lang="en">
 	<head>
 		<title>Senthil's Basic Portfolio</title>
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -13,40 +14,44 @@
 	<body> 
 
 		<!-- displayed options to move between pages in the header -->
-		<header class="navigation">
+		<header>
 
-			<nav class="header_content">
+			<div class="header_content">
+			<div class="container">
 				
-				<div id="Logo">
+				<div class="Logo">
 					Senthil Selvakumar
 				</div>
 
+				<div class="div_nav">
+				<nav>
 				<ul>
 					<li> <a href="index.html">About</a> </li> 
 		  			<li> <a href="portfolio.html">Portfolio</a> </li>
 		  			<li> <a href="contact.html">Contact</a> </li>
 				</ul>
-
-			</nav>
-
+				</nav>
+				</div>
+			</div>
+			</div>
 		</header>
 
+		
 		<!-- Main Box -->
 		<div class="container">
 
-			<div id ="mainbox">
+			<div class="mainbox">
 
 				<!--heading inside the Box-->
 				<div class="heading_inside">
 				<h1> Portfolio</h1>
-				<hr>
 				</div>
 
 				<!--Containt and Picture-->
 
 				<!--Pic 1 and Banner-->
 				<div class="box_to_hold_pic" >
-				<img src="images/people.jpg" alt="image" width="200" height="200" />
+				<img src="images/people.jpg" class="portfolio_image" alt="image"/> 
 				<div class="banner">
 					<h3 class="bannertext">Project 1</h3>
 				
@@ -55,7 +60,7 @@
 				
 				<!--Pic 2 and Banner-->
 				<div class="box_to_hold_pic" >
-				<img src="images/nature.jpg" alt="image" width="200" height="200"/>
+				<img src="images/nature.jpg" class="portfolio_image" alt="image"/>
 				<div class="banner">
 					<h3 class="bannertext">Project 2</h3>
 				</div>
@@ -63,7 +68,7 @@
 
 				<!--Pic 3 and Banner-->
 				<div class="box_to_hold_pic" >
-				<img src="images/abstract.jpg" alt="image" width="200" height="200" />
+				<img src="images/abstract.jpg" class="portfolio_image" alt="image"/>
 				<div class="banner">
 					<h3 class="bannertext">Project 3</h3>
 				</div>
@@ -71,7 +76,7 @@
 
 				<!--Pic 4 and Banner-->
 				<div class="box_to_hold_pic" >
-				<img src="images/food.jpg" alt="image" width="200" height="200" />
+				<img src="images/food.jpg" class="portfolio_image" alt="image"/>
 				<div class="banner">
 					<h3 class="bannertext">Project 4</h3>
 				</div>
@@ -79,7 +84,7 @@
 
 				<!--Pic 5 and Banner-->
 				<div class="box_to_hold_pic" >
-				<img src="images/technics.jpg" alt="image" width="200" height="200" />
+				<img src="images/technics.jpg" class="portfolio_image" alt="image"/>
 				<div class="banner">
 					<h3 class="bannertext">Project 5</h3>
 				</div>
@@ -92,7 +97,7 @@
 
 
 		<!-- Side bar -->
-			<div id="contactbox">
+			<div class="contactbox">
 
 				
 				<h3 class="sidebar_header">Connect with me</h3>

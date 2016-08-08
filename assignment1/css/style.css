@@ -96,7 +96,7 @@ h1{
 
 .mainbox {
 	float: left;
-	max-width: 650px;
+	width: 650px;
 	height: auto;
 	background: #ffffff;
 	padding: 20px;
@@ -231,24 +231,34 @@ input input[type=submit]{
 
 /*   portfolio   */
 
+img.portfolio_image{
+	width: 100%;
+	height: 90%;
+}
+
 
 .box_to_hold_pic{
 	float: left;
 	position: relative;
 	height: 250px;
 	width: 250px; 
-	border: 2px;/* solid red;*/
+	border: 2px;
 	padding: 25px;
-	margin-right: 20px;
+	margin-right: 0px;
 	z-index: 0;
 }
+
+.box_to_hold_pic:nth-child(even) {
+	margin-right: 80px;
+}
+
 
 .banner{
 	position: absolute;
 	height: 40px;
-	width: 208px;
-	top: 175px;
-	left: 22px;
+	width: 80%;
+	top: 150px;
+	/*left: 22px;*/
 	background-color: #4aaaa5;
 	z-index: 1;
 	border: 2px;
@@ -286,6 +296,10 @@ h3.bannertext{
 	    margin-bottom: 20px;
 	}
 
+	footer {
+	position:relative;
+	}
+	
 /*if the screen size is 768px */
 @media only screen and (max-width: 768px) {
 
@@ -305,18 +319,12 @@ h3.bannertext{
 		margin-right: auto;
 		width:100%;
 		margin-top: 10px;
-	    margin-bottom: 20px;
 	}
 
 /*footer is smaller*/
 	footer {
+	/*margin-top: 100px;*/
 	position:relative;
-	height:25px;
-	width: 100%;
-	border-top: 3px solid #4aaaa5;
-	padding-top: 5px;
-	font-size: 8px;
-	z-index: 2;
 }
 
 /*img in about me page*/
@@ -326,6 +334,25 @@ img.about_page {
     width: 30%;
 	}
 
+/*project page */
+
+
+.box_to_hold_pic:nth-child(odd) {
+	float: right;
+	border: 3px;
+	
+}
+
+.box_to_hold_pic:nth-child(even) {
+	margin-right: 0;
+	float: left;
+	border: 3px;
+	
+}
+
+.banner{	
+	width: 80%;
+}
 
 }
 
@@ -396,12 +423,6 @@ img.about_page {
 
 	footer {
 	position:relative;
-	height:25px;
-	width: 100%;
-	border-top: 3px solid #4aaaa5;
-	padding-top: 5px;
-	font-size: 8px;
-	z-index: 2;
 	}
 
 	/* about me pics */
@@ -410,6 +431,29 @@ img.about_page {
     height: auto;
     width: 100%;
 	}
+
+
+/*project page */
+
+.box_to_hold_pic{
+	
+	height: auto;
+	width: 70%; 
+	border: 0px;
+	padding: 0px;
+	margin-bottom: 40px;
+}
+
+.box_to_hold_pic:nth-child(even) {
+	margin-right: 0px;
+}
+
+.banner{
+	
+	width: 100%;
+	top: 150px;
+	
+}
 
 
 }
