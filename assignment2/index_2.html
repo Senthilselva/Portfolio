@@ -4,9 +4,10 @@
 	<title>Senthil Selvakumar</title>
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css"> 
+
 
 
 
@@ -16,7 +17,7 @@
 
 	<header>
 		<nav class="navbar navbar-default">
-		  <div class="container">
+		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -45,38 +46,30 @@
 
 	
 	<div class="container">  <!--container -->
-
+		<div class="">
  
 		<div class="row"> <!--row for Heading and side bar-->
 			<div class="col-lg-9"> <!--coloms to hold the heading -->
-			<div class="jumbotron">
-			<div class="row"><!-- nexted row for heading-->
-
-				<div class="col-lg-12">
-				<h1 class="shade">About Me</h1>
+				<h1>About Me</h1>
 				<hr>
+				<div class="row">
 				</div>
-
-			</div> <!-- first nested row -->
+			</div> <!--coloms to hold the main contant -->
 			
-
-			<div class="row"> <!--row for pic and write up bar-->
-				<div class="col-lg-9"> <!--coloms -->
-					<div class="col-lg-4"> <!--image -->
-						<p> <img src="images/placeholderimage.png" alt="Your Name" class="img-thumbnail" /></p>
-					</div>
-					<div class="col-lg-8"> <!-- write up -->
-						<p class="lsize">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque. Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac.</p>
- 						<p class="lsize">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque. Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac.</p>
-						
-					</div> <!--write up -->
-				</div><!-- colom-->
-			</div>
-
-			</div> <!--closing jumbotron -->
-			</div>
+		</div><!--row for Heading and side bar-->
 
 
+		<div class="row"> <!--row for pic and write up bar-->
+			<div class="col-lg-9"> <!--coloms -->
+				<div class="col-lg-3">
+					<p> <img src="images/placeholderimage.png" alt="Your Name" class="img-thumbnail" /></p>
+				</div>
+				<div class="col-lg-9">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque. Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque. Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque. Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac.</p>
+				</div> <!--write up -->
+			</div><!-- colom-->
 			<div class="col-lg-3"> <!--side bar -->
 				
 						<div class="panel panel-primary">
@@ -91,21 +84,19 @@
 							  </div>
 						</div>
 			</div> <!--side bar -->
-		</div><!--row for pic and write up bar-->
+		</div><!--row for pic and write up bar-->	
 
 		<div class="row">
-		<br>
-		<br>
-		</div>
+			<nav class="navbar navbar-default navbar-fixed-bottom">
+ 				 <div class="container-fuild">
+    				<p> Copywrite </p>
+  				</div>
+			</nav>
+		</div><!--footer -->
 	
 	</div><!--main container --> 
 
-	<!-- sticker footer -->
-	 <div class="navbar navbar navbar-fixed-bottom">
-	<div class="container-fluid footsize">
-	     <p> @copywrite Senthil 2016</p>
-	</div>
-	</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
